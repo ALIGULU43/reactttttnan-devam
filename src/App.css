@@ -1,0 +1,66 @@
+.lists ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
+  text-align: center;
+  position: fixed;
+}
+
+.logo {
+  font-size: 20px;
+  height: 28px;
+  margin-top: 13px;
+  border: 2px solid whitesmoke;
+  width: 70px;
+}
+
+.btn {
+  height: 80px;
+  width: 400px;
+  font-size: 50px;
+  background-color: transparent;
+  border: solid aliceblue;
+  color: aliceblue;
+  margin-left: 200px;
+}
+
+.btn:hover {
+  color: rgb(65, 65, 65);
+  background-color: aliceblue;
+}
+
+.box_1 {
+  height: 80px;
+  width: 80%;
+  background-color: rgba(116, 116, 16, 0.363);
+  position: absolute;
+  margin: 30px 50px;
+}
+.qutu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.qutu_2{
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://preview.colorlib.com/theme/tasty/images/bg_2.jpg.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: rgb(57, 243, 10);
+  font-size: 20px;
+}
